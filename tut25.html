@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border:2px solid black;
+            background-color: rgb(220, 220, 184);
+        }
+        .box{
+            display: inline-block;
+        border:2px solid rgb(140, 140, 7);
+        width: 150px;
+        height: 150px;
+        margin:2px;
+     }
+        #box3{
+            /* relative: relative to its normal position and will leave a gap at its normal position*/
+            /* absolute:relative to the position of its first parent */
+            /* position:absolute; */
+            position:fixed;
+            top:34px;
+            left:4px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="2">1</div>
+    <div class="box" id="4">2</div>
+    <div class="box" id="6">3</div>
+    <div class="box" id="8">4</div>
+</div>
+</body>
+</html>
+<!-- this kind of boxes use in tables fixed position means position related to browser window -->
+<!-- stickey : we do position to stickey it will stick to screen -->

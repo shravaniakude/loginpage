@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        *{
+            
+
+        }
+        body{
+            font-family: 'Shantell Sans', cursive;
+        }
+        .container{
+            width: 900px;
+            border:2px solid lightgray;
+            margin:auto;
+            background-color: rgb(239, 242, 243);
+
+        }
+        .item{
+            border: 2px solid grey;
+            margin:12px 3px ;
+            padding: 12px 3px;
+            background-color: rgba(91, 107, 123, 0.399);
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width:48%;
+            
+        }
+        #stationary{
+            /* float: left; */
+            /* clear: left; */
+            clear: both;
+            width:100%;
+        }
+       
+        p,h1{
+            /* text-align: left; */
+            /* text-align: right; */
+            /* text-align: center; */
+            text-align: justify;
+            
+        }
+        h2{
+            width: 500px;
+            margin:23px auto;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <h2 >welcome to my store</h2>
+        
+
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruits" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex recusandae error. Iusto eaque tempore facilis ex sunt laudantium placeat unde eligendi reiciendis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptatum odit fugit odio. Aliquam praesentium corporis quod voluptate quasi quia tempora fugiat quas provident vel id dolores corrupti quae ea consequatur, ipsa maxime eligendi.
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computer" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex recusandae error. Iusto eaque tempore facilis ex sunt laudantium placeat unde eligendi reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, minus! Asperiores iste rem minima eos doloribus nesciunt quasi esse aut. Atque inventore unde iusto magni. Totam voluptas doloremque id, possimus ipsum voluptatem in quia?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationary" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex recusandae error. Iusto eaque tempore facilis ex sunt laudantium placeat unde eligendi reiciendis.</p>
+        </div>
+        <div id="books" class="item">
+            <h3>books</h3>
+            <p id="books" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex recusandae error. Iusto eaque tempore facilis ex sunt laudantium placeat unde eligendi reiciendis.</p>
+        </div>
+        
+
+    </div>
+</body>
+</html>
